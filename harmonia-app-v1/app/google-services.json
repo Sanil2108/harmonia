@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "48006707773",
+    "project_id": "harmonia-192707"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48006707773:android:7633198ea6d07ccf",
+        "android_client_info": {
+          "package_name": "com.sanilk.harmonia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48006707773-cpsk4eeap9ipr47oib1epmbbaces6brd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "48006707773-l424je94kpp0jeli9dqf0nqiq8cvvkn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanilk.harmonia",
+            "certificate_hash": "20f3c201ca6ac4cf53122a9e689ddefe87f26b5e"
+          }
+        },
+        {
+          "client_id": "48006707773-jqi0egb911hp2alt337oeidv597ucscb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanilk.harmonia",
+            "certificate_hash": "952010c37ce22870191d8f3e897a62197f806d53"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6jlYEJwRa07-xmlwt3LncJNMj2r7mDvE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-112713467-2"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

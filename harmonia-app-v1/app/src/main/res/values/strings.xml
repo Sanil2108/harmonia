@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Harmonia</string>
+
+    <!-- Google login stuff -->
+    <string name="google_sign_in_client_id">48006707773-j48sbaui6uhqc1vj74sc2e55qittcncg.apps.googleusercontent.com</string>
+
+    <!-- Facebook login stuff -->
+    <string name="facebook_app_id">208030546417071</string>
+    <string name="fb_login_protocol_scheme">fb208030546417071</string>
+
+
+</resources>
