@@ -1,0 +1,64 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/fragment_specific_genre_textview_title"
+            android:layout_margin="10dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="Hot"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                android:textColor="@color/lemonade_cherry_red"
+                android:text="see more +"
+                android:background="@drawable/btn_play_btn1"
+                android:layout_width="100dp"
+                android:layout_height="35dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/playlist_view_compressed"></include>
+
+            <include layout="@layout/playlist_view_compressed"></include>
+
+            <include layout="@layout/playlist_view_compressed"></include>
+
+            <include layout="@layout/playlist_view_compressed"></include>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

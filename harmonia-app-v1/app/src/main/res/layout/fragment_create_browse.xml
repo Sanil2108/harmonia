@@ -1,0 +1,36 @@
+<RelativeLayout android:layout_height="200dp"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <ImageView
+        android:alpha="0.5"
+        android:scaleType="centerCrop"
+        android:src="@drawable/create_browse_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_margin="10dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="Create"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="150dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="Browse"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="150dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    
+</RelativeLayout>

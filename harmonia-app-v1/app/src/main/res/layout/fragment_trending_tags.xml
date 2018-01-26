@@ -1,0 +1,117 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textColor="@color/lemonade_cherry_red"
+        android:text="Trending tags"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="inspirational"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp" />
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="motivating"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp" />
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="sad"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="happy"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="65dp"
+            android:layout_height="35dp" />
+
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="sad"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="optimistic"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="80dp"
+            android:layout_height="35dp" />
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="romance"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="75dp"
+            android:layout_height="35dp" />
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="motivating"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp" />
+
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="see more +"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_width="100dp"
+            android:layout_height="35dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

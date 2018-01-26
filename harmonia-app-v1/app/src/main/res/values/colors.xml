@@ -16,4 +16,11 @@
     <color name="mySignUpButtonStart">#ff2968</color>
     <color name="mySignUpButtonEnd">#ff5a3a</color>
 
+
+    <!-- Lemonade stand -->
+    <color name="lemonade_cherry_red">#F70025</color>
+    <color name="lemonade_ice">#F7EFE2</color>
+    <color name="lemonade_marmalade">#F25C00</color>
+    <color name="lemonade_orange_juice">#F9A603</color>
+
 </resources>

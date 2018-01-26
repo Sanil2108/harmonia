@@ -1,0 +1,70 @@
+<LinearLayout android:layout_height="150dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textColor="@color/lemonade_cherry_red"
+        android:text="Browse by genre"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:tint="@color/lemonade_cherry_red"
+                android:padding="10dp"
+                android:src="@drawable/jazz1"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+
+
+            <ImageView
+                android:tint="@color/lemonade_cherry_red"
+                android:padding="10dp"
+                android:src="@drawable/country1"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+
+
+            <ImageView
+                android:tint="@color/lemonade_cherry_red"
+                android:padding="10dp"
+                android:src="@drawable/edm1"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+
+
+            <ImageView
+                android:tint="@color/lemonade_cherry_red"
+                android:padding="10dp"
+                android:src="@drawable/rock1"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+
+
+            <ImageView
+                android:tint="@color/lemonade_cherry_red"
+                android:padding="10dp"
+                android:src="@drawable/country1"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

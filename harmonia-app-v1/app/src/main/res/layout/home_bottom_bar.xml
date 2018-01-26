@@ -1,0 +1,152 @@
+<RelativeLayout android:layout_height="80dp"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:background="#000"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_height="60dp">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/home_bar_profile"
+                android:layout_weight="4"
+                android:src="@drawable/ic_account_circle_white_48dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <!--<TextView-->
+                <!--android:gravity="center"-->
+                <!--android:textSize="8sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:textColor="#fff"-->
+                <!--android:text="Profile"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp" />-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="7dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/home_bar_saved"
+                android:layout_weight="4"
+                android:src="@drawable/cloud_download"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <!--<TextView-->
+                <!--android:gravity="center"-->
+                <!--android:textSize="8sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:textColor="#fff"-->
+                <!--android:text="Saved"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="7dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="7dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/home_bar_leaderboards"
+                android:layout_weight="4"
+                android:src="@drawable/ic_view_list_white_48dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <!--<TextView-->
+                <!--android:gravity="center"-->
+                <!--android:textSize="8sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:textColor="#fff"-->
+                <!--android:text="Leaderboards"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp" />-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="7dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/home_bar_activity"
+                android:layout_weight="4"
+                android:src="@drawable/ic_notifications_white_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <!--<TextView-->
+                <!--android:gravity="center"-->
+                <!--android:textSize="8sp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:textColor="#fff"-->
+                <!--android:text="Notifications"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:padding="7dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_weight="5"
+            android:src="@drawable/logo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <!--<TextView-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="10sp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textColor="#fff"-->
+        <!--android:text="Saved"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp" />-->
+
+    </LinearLayout>
+
+</RelativeLayout>

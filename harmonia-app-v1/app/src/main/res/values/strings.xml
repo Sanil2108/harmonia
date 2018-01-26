@@ -8,5 +8,16 @@
     <string name="facebook_app_id">208030546417071</string>
     <string name="fb_login_protocol_scheme">fb208030546417071</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="genres">
+        <item></item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Metal</item>
+        <item>Classical</item>
+        <item>EDM</item>
+    </array>
 
 </resources>
