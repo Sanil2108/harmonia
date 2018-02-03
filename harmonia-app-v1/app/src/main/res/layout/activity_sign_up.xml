@@ -12,11 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <EditText
+        android:id="@+id/activity_sign_up_name"
+        android:layout_marginTop="20dp"
         android:padding="8dp"
         android:text="Name"
         android:textColor="@color/lemonade_cherry_red"
@@ -25,5 +24,44 @@
         android:layout_marginLeft="80dp"
         android:layout_width="match_parent"
         android:layout_height="40dp" />
+
+
+    <EditText
+        android:id="@+id/activity_sign_up_password"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:text="Password"
+        android:textColor="@color/lemonade_cherry_red"
+        android:background="@drawable/btn_play_btn1"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+    <EditText
+        android:id="@+id/activity_sign_up_email"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:text="Email"
+        android:textColor="@color/lemonade_cherry_red"
+        android:background="@drawable/btn_play_btn1"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/activity_sign_up_singup_btn"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:text="Sign up"
+        android:textColor="@color/lemonade_cherry_red"
+        android:background="@drawable/btn_play_btn1"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
 
 </LinearLayout>
