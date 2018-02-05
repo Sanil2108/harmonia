@@ -4,11 +4,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent">
 
-    <ImageView
-        android:scaleType="centerCrop"
-        android:src="@drawable/temp_background"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <!--<ImageView-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/temp_background"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -18,22 +18,46 @@
         android:layout_height="match_parent"
         tools:context="com.sanilk.harmonia.MainActivity">
 
-        <LinearLayout
-            android:layout_weight="3"
-            android:gravity="center_vertical|center_horizontal"
-            android:layout_gravity="center"
+        <EditText
+            android:id="@+id/activity_main_username"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:text=""
+            android:textColor="@color/lemonade_cherry_red"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
             android:layout_width="match_parent"
-            android:layout_height="0dp">
+            android:layout_height="40dp" />
 
-            <!--<ImageView-->
-                <!--android:gravity="center"-->
-                <!--android:src="@drawable/temp_logo"-->
-                <!--android:layout_width="200dp"-->
-                <!--android:layout_height="200dp" />-->
 
-        </LinearLayout>
+        <EditText
+            android:id="@+id/activity_main_password"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:text=""
+            android:textColor="@color/lemonade_cherry_red"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/activity_main_sign_in_btn"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:text="Sign in"
+            android:textColor="@color/lemonade_cherry_red"
+            android:background="@drawable/btn_play_btn1"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:orientation="vertical"
             android:layout_weight="2"
             android:layout_width="match_parent"

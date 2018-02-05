@@ -34,6 +34,9 @@ dependencies {
 
     //For google login
     compile 'com.google.android.gms:play-services-auth:11.6.0'
+
+    //For youtube
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
 }
 
 

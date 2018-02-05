@@ -26,7 +26,7 @@
         <Button
             android:layout_margin="10dp"
             android:textColor="@color/lemonade_cherry_red"
-            android:text="Browse"
+            android:text="Random"
             android:background="@drawable/btn_play_btn1"
             android:layout_width="150dp"
             android:layout_height="40dp" />

@@ -95,6 +95,7 @@
             <Button
                 android:textColor="@color/lemonade_cherry_red"
                 android:text="Play"
+                android:id="@+id/fragment_playlist_view_play_btn"
                 android:background="@drawable/btn_play_btn1"
                 android:layout_width="150dp"
                 android:layout_height="40dp" />

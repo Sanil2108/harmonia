@@ -3,7 +3,9 @@ package com.sanilk.harmonia.networking.threads;
 import com.sanilk.harmonia.entities.User;
 import com.sanilk.harmonia.networking.JSONParser;
 import com.sanilk.harmonia.networking.NetworkHandler;
+import com.sanilk.harmonia.response_interfaces.AuthenticatingInterface;
 import com.sanilk.harmonia.response_interfaces.SignUpResponseInterface;
+import com.sanilk.harmonia.responses.AuthenticateResponse;
 import com.sanilk.harmonia.responses.SignUpResponse;
 
 import org.json.JSONObject;
@@ -13,24 +15,33 @@ import java.io.DataOutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/**
+ * Created by sanil on 3/2/18.
+ */
 
-public class SignUpThread implements MyThread {
+public class AuthenticatingThread implements MyThread {
     Thread t;
     boolean needToStop=false;
     private User user;
 
-    private SignUpResponseInterface signUpResponseInterface;
+    private AuthenticatingInterface authenticatingInterface;
 
     private final static long MILLISECONDS=1000;
 
-    public SignUpThread(User user, SignUpResponseInterface responseInterface){
+    public AuthenticatingThread(User user, AuthenticatingInterface authenticatingInterface) {
+        this.user = user;
+        this.authenticatingInterface=authenticatingInterface;
         t=new Thread(this);
-        this.user=user;
-        this.signUpResponseInterface=responseInterface;
     }
 
-    public void startThread(){
+    @Override
+    public void startThread() {
         t.start();
+    }
+
+    @Override
+    public void stopThread() {
+        needToStop=true;
     }
 
     @Override
@@ -50,12 +61,9 @@ public class SignUpThread implements MyThread {
                 DataOutputStream dos = new DataOutputStream(connection.getOutputStream());
 
                 JSONObject object=new JSONObject();
-                object.put("request_type", "CREATE_USER");
+                object.put("request_type", "AUTHENTICATE");
                 object.put("user_name", user.getName());
                 object.put("password", user.getPassword());
-                object.put("email", user.getEmail());
-                object.put("first_name", "tempFirstName");
-                object.put("last_name", "tempLastName");
 
                 String jsonObject=object.toString();
 
@@ -70,23 +78,18 @@ public class SignUpThread implements MyThread {
                 connection.disconnect();
 
                 JSONParser jsonParser=new JSONParser();
-                SignUpResponse signUpResponse=(SignUpResponse)jsonParser.parse(response);
+                AuthenticateResponse authenticateResponse=(AuthenticateResponse)jsonParser.parse(response);
 
-                signUpResponseInterface.responseReceived(signUpResponse);
+                authenticatingInterface.responseReceived(authenticateResponse);
 
                 //check for response
                 //break;
 
             } catch (Exception e) {
                 e.printStackTrace();
-                signUpResponseInterface.onFailure();
+                authenticatingInterface.onFailure();
             }
             break;
         }
     }
-
-    public void stopThread(){
-        needToStop=true;
-    }
-
 }

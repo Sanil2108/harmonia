@@ -27,6 +27,8 @@ public class TrendingFragment extends Fragment {
         PlaylistViewFragment playlistViewFragment=new PlaylistViewFragment();
         getChildFragmentManager().beginTransaction().replace(R.id.fragment_trending_container1, playlistViewFragment).commit();
 
+
+
         return view;
     }
 
