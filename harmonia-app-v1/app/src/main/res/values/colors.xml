@@ -23,4 +23,9 @@
     <color name="lemonade_marmalade">#F25C00</color>
     <color name="lemonade_orange_juice">#F9A603</color>
 
+
+    <!-- Calm -->
+    <color name="calm_main">#F2CA90</color>
+    <color name="calm_back">#F4F3EF</color>
+    <color name="calm_text">#848FA7</color>
 </resources>

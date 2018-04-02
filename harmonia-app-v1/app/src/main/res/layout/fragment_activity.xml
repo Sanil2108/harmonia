@@ -36,7 +36,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -80,7 +80,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -102,7 +102,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -124,7 +124,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -146,7 +146,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -168,7 +168,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -190,7 +190,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -212,7 +212,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -233,7 +233,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"
@@ -255,7 +255,7 @@
                     android:layout_height="50dp" />
 
                 <TextView
-                    android:text="Your playlist 'My playlist' got more than 500 upvotes!"
+                    android:text="Your playlist 'My playlist' got more than 500 upVotes!"
                     android:textColor="@color/lemonade_cherry_red"
                     android:layout_margin="10dp"
                     android:layout_width="match_parent"

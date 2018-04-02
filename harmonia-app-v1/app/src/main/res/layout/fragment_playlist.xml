@@ -1,13 +1,90 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<!--<ScrollView android:layout_height="match_parent"-->
+    <!--android:layout_width="match_parent"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sanilk.harmonia.home_activity_fragments.PlaylistFragment">
+    android:orientation="vertical"
+    android:id="@+id/fragment_playlist_main_container"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:background="#dfe3ee"
+        android:layout_weight="0"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="65dp">
 
-</FrameLayout>
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#365998"
+            android:text="Playlist name"
+            android:textSize="20sp"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/fragment_playlist_thumbs_up"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/ic_thumb_up_white_24dp"
+            android:layout_height="match_parent" />
+
+
+        <ImageView
+            android:id="@+id/fragment_playlist_thumbs_down"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/ic_thumb_down_white_24dp"
+            android:layout_height="match_parent" />
+
+
+        <ImageView
+            android:id="@+id/fragment_playlist_fav"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/ic_favorite_white_24dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ListView
+            android:divider="@android:color/transparent"
+            android:id="@+id/fragment_playlist_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </ScrollView>
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_weight="9"-->
+        <!--android:layout_height="0dp">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!---->
+
+        <!--</LinearLayout>-->
+
+    <!--</ScrollView>-->
+
+    </LinearLayout>
+<!--</ScrollView>-->

@@ -9,6 +9,9 @@ public class MyMessage {
 
     public enum MyMessageType{
         SIGN_UP,
-        AUTHENTICATE
+        AUTHENTICATE,
+        RANDOM_PLAYLIST,
+        YOUTUBE_SEARCH_RESULT,
+        CREATE_NEW_PLAYLIST
     }
 }

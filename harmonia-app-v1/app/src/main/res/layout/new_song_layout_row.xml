@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:background="@color/calm_back"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/new_song_layout_row_thumbnail"
+        android:layout_margin="5dp"
+        android:src="@drawable/temp1"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/new_song_layout_row_title"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:text="Name"
+            android:textColor="@color/calm_text"
+            android:layout_width="match_parent"
+            android:layout_weight="5"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_weight="6"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/new_song_layout_row_artist"
+                android:textColor="@color/calm_text"
+                android:text="By Artist"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <!--<TextView-->
+                <!--android:textColor="#0f0"-->
+                <!--android:text="234"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent" />-->
+
+
+            <!--<TextView-->
+                <!--android:textColor="#f00"-->
+                <!--android:text="234"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,13 +1,69 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.sanilk.harmonia.home_activity_fragments.ProfileFragment">
+    android:orientation="vertical"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:background="#424242"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="60dp">
 
-</FrameLayout>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/fragment_specific_genre_textview_title"
+            android:layout_margin="10dp"
+            android:textColor="@color/lemonade_cherry_red"
+            android:text="My  profile"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:src="@drawable/temp_dp"
+        android:layout_marginBottom="100dp"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:background="#424242"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/lemonade_cherry_red"
+        android:text="My Playlists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:background="#424242"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/lemonade_cherry_red"
+        android:text="My Upvotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:background="#424242"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/lemonade_cherry_red"
+        android:text="My Comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
